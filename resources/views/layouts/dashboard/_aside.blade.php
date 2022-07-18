@@ -15,10 +15,10 @@
         <ul class="sidebar-menu" data-widget="tree">
             {{--{{ route('dashboard.welcome') }}--}}
             <li><a href="{{route("employee.index")}}"><i class="fa fa-th"></i><span>@lang('site.employee')</span></a></li>
-            <li><a href="{{route("employee.create")}}"><i class="fa fa-th"></i><span>@lang('site.employee_add')</span></a></li>
+            <li><a href="{{route("employee.create")}}"><i class="fa fa-circle-o"></i><span>@lang('site.employee_add')</span></a></li>
 
             <li><a href="{{route("company.index")}}"><i class="fa fa-th"></i><span>@lang('site.company')</span></a></li>
-            <li><a href="{{route("company.create")}}"><i class="fa fa-th"></i><span>@lang('site.company_add')</span></a></li>
+            <li><a href="{{route("company.create")}}"><i class="fa fa-circle-o"></i><span>@lang('site.company_add')</span></a></li>
         </ul>
 
     </section>
