@@ -27,6 +27,6 @@ class WelcomeEmployee extends Mailable
      */
     public function build()
     {
-        return $this->view('malis.welcomeEmailToEmployee');
+        return $this->view('dashboard.malis.welcomeEmailToEmployee');
     }
 }
